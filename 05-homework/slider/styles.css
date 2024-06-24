@@ -1,0 +1,31 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f0f0f0;
+}
+
+.gallery-container {
+  display: flex;
+  align-items: center;
+}
+
+#galleryImage {
+  max-width: 600px;
+  max-height: 400px;
+  margin: 0 20px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
