@@ -1,0 +1,33 @@
+* {
+  font-family: Arial, sans-serif;
+}
+
+body {
+  margin: 20px;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background: #f4f4f4;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+li strong {
+  display: block;
+}
+
+li em {
+  display: block;
+  color: #888;
+  margin-top: 5px;
+}
