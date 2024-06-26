@@ -1,0 +1,80 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.tabs {
+  margin-bottom: 20px;
+}
+
+.tabs button {
+  background-color: #f2f2f2;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.tabs button.active {
+  background-color: #ddd;
+}
+
+.search {
+  margin-bottom: 20px;
+}
+
+.search input[type="text"] {
+  padding: 8px;
+  width: 200px;
+}
+
+.search button {
+  padding: 8px 20px;
+  cursor: pointer;
+}
+
+.weather-today {
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+.weather-today img {
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+.hourly-forecast {
+  margin-bottom: 20px;
+}
+
+.hourly-forecast h2 {
+  margin-bottom: 10px;
+}
+
+.hourly-forecast-item {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.nearby-cities {
+  margin-bottom: 20px;
+}
+
+.nearby-cities h2 {
+  margin-bottom: 10px;
+}
+
+.nearby-city {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.error {
+  border: 1px solid #ff0000;
+  padding: 10px;
+  margin-bottom: 20px;
+  color: #ff0000;
+}
